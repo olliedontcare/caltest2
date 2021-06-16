@@ -1,0 +1,497 @@
+@media screen and (min-width: 375px) {
+  * {
+    margin: 0em;
+    padding: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  body {
+    padding: 2em;
+    /*background: linear-gradient(90deg, rgb(2, 224, 184), rgb(48, 167, 153));*/
+    background: linear-gradient(90deg, purple, orange);
+  }
+
+  .wrap {
+    width: 100%;
+    margin-top: 6em;
+    height: auto;
+    background: rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 2fr 0.1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .result {
+    display: grid;
+    grid-area: 1/1/2/5;
+  }
+
+  .btn9 {
+    display: grid;
+    grid-area: 3/3/4/4;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+  .btn8 {
+    display: grid;
+    grid-area: 3/2/4/3;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .btn7 {
+    display: grid;
+    grid-area: 3/1/4/2;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .btn6 {
+    display: grid;
+    grid-area: 4/3/5/4;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+  .btn5 {
+    display: grid;
+    grid-area: 4/2/5/3;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+  .btn4 {
+    display: grid;
+    grid-area: 4/1/5/2;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+
+  .btn3 {
+    display: grid;
+    grid-area: 5/3/6/4;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+
+  .btn2 {
+    display: grid;
+    grid-area: 5/2/6/3;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .btn1 {
+    display: grid;
+    grid-area: 5/1/6/2;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+
+  .btnplus {
+    display: grid;
+    grid-area: 3/4/4/5;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+
+  .btnminus {
+    display: grid;
+    grid-area: 4/4/5/5;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+
+  .btnmultiply {
+    display: grid;
+    grid-area: 5/4/6/5;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .btndivide {
+    display: grid;
+    grid-area: 6/4/7/5;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+
+
+  .btnequal {
+    display: grid;
+    grid-area: 6/2/7/4;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .btnac {
+    display: grid;
+    grid-area: 7/1/8/5;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    background: rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(44, 44, 44, 0.3);
+  }
+  
+  #ac {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0em;
+    padding: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    /*background: linear-gradient(90deg, rgb(2, 224, 184), rgb(48, 167, 153));*/
+    background: linear-gradient(90deg, purple, orange);
+  }
+
+  .wrap {
+    width: 40%;
+    margin-top: 8em;
+    height: auto;
+    background: rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 20px 1fr 1fr 1fr 1fr;
+    grid-gap: 0.2em;
+  }
+
+  .result {
+    display: grid;
+    grid-area: 1/1/2/5;
+  }
+
+  .btn9 {
+    display: grid;
+    grid-area: 3/3/4/4;
+  }
+
+  .btn9:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn8 {
+    display: grid;
+    grid-area: 3/2/4/3;
+  }
+
+  .btn8:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn7 {
+    display: grid;
+    grid-area: 3/1/4/2;
+  }
+
+  .btn7:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn6 {
+    display: grid;
+    grid-area: 4/3/5/4;
+  }
+
+  .btn6:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn5 {
+    display: grid;
+    grid-area: 4/2/5/3;
+  }
+
+  .btn5:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn4 {
+    display: grid;
+    grid-area: 4/1/5/2;
+  }
+
+  .btn4:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn3 {
+    display: grid;
+    grid-area: 5/3/6/4;
+  }
+
+  .btn3:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn2 {
+    display: grid;
+    grid-area: 5/2/6/3;
+  }
+
+  .btn2:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn1 {
+    display: grid;
+    grid-area: 5/1/6/2;
+  }
+
+  .btn1:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn0:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btnplus {
+    display: grid;
+    grid-area: 3/4/4/5;
+  }
+
+  .btnplus:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btnminus {
+    display: grid;
+    grid-area: 4/4/5/5;
+  }
+
+  .btnminus:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btnmultiply {
+    display: grid;
+    grid-area: 5/4/6/5;
+  }
+
+  .btnmultiply:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btndivide {
+    display: grid;
+    grid-area: 6/4/7/5;
+  }
+
+  .btndivide:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btnequal {
+    display: grid;
+    grid-area: 6/2/7/4;
+  }
+
+  .btnequal:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .btnac {
+    display: grid;
+    grid-area: 7/1/8/5;
+  }
+
+  .btnac:hover {
+    background: rgb(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    background: rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(44, 44, 44, 0.3);
+  }
+
+  input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  #ac {
+    width: 100%;
+  }
+}
