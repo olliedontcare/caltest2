@@ -43,10 +43,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
  
@@ -57,10 +57,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
  
@@ -72,10 +72,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
  
@@ -87,10 +87,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
  
@@ -101,10 +101,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
   
@@ -115,10 +115,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
   
@@ -130,10 +130,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
   
@@ -145,10 +145,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
   }
 
  
@@ -160,11 +160,24 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
+ 
+ .btn0 {
+   display: grid;
+    grid-area: 6/1/7/2;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1px;
+    border: transparent;
+    color: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.3);
+ }
 
   
 
@@ -175,10 +188,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
   
@@ -190,10 +203,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
   
@@ -205,10 +218,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
  
@@ -220,10 +233,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
 
@@ -235,10 +248,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
  
@@ -250,10 +263,10 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 1px;
     border: transparent;
     color: rgb(44, 44, 44);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
   }
 
   
